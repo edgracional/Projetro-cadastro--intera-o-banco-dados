@@ -12,6 +12,6 @@ function handlerGet(req, res) {
     res.status(200).json({
         id: 3,
         nome: 'Raqueli',
-        email: 'raqueli69@sexmail.com'
+        email: 'raqueli69@gmail.com'
     })
 }
