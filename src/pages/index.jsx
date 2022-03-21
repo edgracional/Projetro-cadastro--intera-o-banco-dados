@@ -18,6 +18,7 @@ export default function Inicio() {
            <Navegador texto="Estiloso"  destino="/estiloso" />
            <Navegador texto="App"  destino="/app" cor="#9400d3"/>
            <Navegador texto="jsx"  destino="/jsx" cor="#dc143c" />
+           <Navegador texto="Navegação #01"  destino="/navegacao/" cor="green" />
         </div>
     )
 
