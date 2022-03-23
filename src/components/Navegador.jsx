@@ -6,7 +6,7 @@ export default function Navegador(props) {
     /* Vamso encapsular o compoente */
     return(
         <div>
-            <Link href={props.destino}>
+            <Link href={props.destino} passHref>
                 <div className={styles.navegador} style={{
                     /* aplicando de forma dinâmica a cor dos links */
                     backgroundColor: props.cor ?? 'dodgerblue'
